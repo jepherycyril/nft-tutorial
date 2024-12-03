@@ -1,4 +1,4 @@
-solidity ^0.8.24;
+pragma solidity ^0.8.24;
 
 // Import the openzepplin contracts
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -9,4 +9,4 @@ contract NFTee is ERC721 {
 		 // mint an NFT to yourself
 		 _mint(msg.sender, 1);
 	 }
- }
+}
